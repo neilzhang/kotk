@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kotk>
+	<ConfigFilePath>
+		<Card>src/main/resources/cards.xml</Card>
+		<Rule>src/main/resources/rules.xml</Rule>
+	</ConfigFilePath>
+	<Component>
+		<Driver>Driver</Driver>
+		<Controller>Controller</Controller>
+		<Processor>Processor</Processor>
+		<Gather>Gather</Gather>
+		<Decider>Decider</Decider>
+	</Component>
+	<Client>
+		<Facade>ConsoleFacade</Facade>
+		<Adapter>ConsoleAdapter</Adapter>
+	</Client>
+</kotk>
